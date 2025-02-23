@@ -47,4 +47,3 @@ void	burning_ship_set(t_data *var)
 	}
 	mlx_put_image_to_window(var->mlx, var->win, var->img.img, 0, 0);
 }
-
