@@ -18,7 +18,7 @@ void	print_usage(void)
 {
 	char	*text;
 
-	text = "Usage: ./fractol [FRACTAL SET]... [OPTIONS]...\n\n"
+	text = "Usage: ./fractol [FRACTAL SET] [OPTIONS]\n\n"
 		"  Options:\n  <cr> - Real value of constant (for Julia set).\n"
 		"  <ci> - Imaginary value of constant (for Julia set).\n"
 		"  <i>  - Number of iterations\n\n"
