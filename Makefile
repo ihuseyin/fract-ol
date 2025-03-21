@@ -19,7 +19,7 @@ OBJ_DIR = obj
 BIN_DIR = bin
 
 SRC = $(SRC_DIR)/fractol.c $(SRC_DIR)/print_functions.c $(SRC_DIR)/set_values.c \
-	  $(SRC_DIR)/init_and_open_win.c $(SRC_DIR)/mlx_utils.c $(SRC_DIR)/utils.c \
+	  $(SRC_DIR)/init_and_open_win.c $(SRC_DIR)/mlx_utils.c $(SRC_DIR)/string_utils.c \
 	  $(SRC_DIR)/event_loops.c $(SRC_DIR)/key_press_events.c $(SRC_DIR)/mouse_scroll_events.c \
 	  $(SRC_DIR)/change_iterations.c $(SRC_DIR)/burning_ship_set.c \
 	  $(SRC_DIR)/mandelbrot_set.c $(SRC_DIR)/julia_set.c
